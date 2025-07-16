@@ -1,0 +1,40 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Output binaries
+*.out
+*.a
+
+# Vendor directory (if using go mod vendor)
+/vendor/
+
+# Go workspace file
+*.workspace
+
+# GoLand / JetBrains project files
+.idea/
+
+# SublimeText project/workspace
+*.sublime-*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Test cache
+*.test
+
+# Configs or environment specific files
+.env
+config/service-targets.yaml
+
+# Coverage reports
+coverage.out
+
+changes.diff
